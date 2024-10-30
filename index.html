@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Country Explorer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Country Explorer</h1>
+            <input type="text" id="search" placeholder="Search for a country...">
+            <select id="region-filter">
+            </select>
+            <select id="language-filter">
+            </select>
+            <div id="suggestions" class="suggestions"></div>
+        </header>
+        <main>
+            <div id="country-list" class="country-list"></div>
+            <button id="show-more">Show More</button>
+        </main>
+        <aside id="favorites">
+            <h3>Your Favorite Countries:</h3>
+            <div id="favorites-box" class="favorites-box"></div>
+        </aside>
+        <div id="country-details" class="hidden">
+            <h2 id="country-name"></h2>
+            <p><strong>Top Level Domain:</strong> <span id="tld"></span></p>
+            <p><strong>Capital:</strong> <span id="capital"></span></p>
+            <p><strong>Region:</strong> <span id="region"></span></p>
+            <p><strong>Population:</strong> <span id="population"></span></p>
+            <p><strong>Area:</strong> <span id="area"></span></p>
+            <p><strong>Languages:</strong> <span id="languages"></span></p>
+            <button id="back">Back</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

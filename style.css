@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    
+}
+
+header {
+    background: #4caf50;
+    padding: 20px;
+    text-align: center;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20220126/pngtree-nature-4-tree-country-light-photo-image_556616.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#search, #region-filter, #language-filter {
+    padding: 10px;
+    margin: 5px;
+}
+
+#suggestions {
+    display: none; 
+    
+}
+
+
+.country-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.country-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.country-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.favorite-button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#show-more {
+    margin-left: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+#favorites {
+    padding: 20px;
+    background-color: rgb(0, 229, 255);
+    margin: 10px;
+}
+
+#favorites h3 {
+    margin-top: 0;
+}
+
+#country-details {
+    background-color: rgb(0, 229, 255);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
